@@ -14,6 +14,12 @@
 		BB0EB4762BA5AE67008279C4 /* TranquilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4752BA5AE67008279C4 /* TranquilityTests.swift */; };
 		BB0EB4802BA5AE67008279C4 /* TranquilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB47F2BA5AE67008279C4 /* TranquilityUITests.swift */; };
 		BB0EB4822BA5AE67008279C4 /* TranquilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4812BA5AE67008279C4 /* TranquilityUITestsLaunchTests.swift */; };
+		BB0EB48F2BA61082008279C4 /* ExpenseBuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */; };
+		BB0EB4912BA610CE008279C4 /* Buddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4902BA610CE008279C4 /* Buddy.swift */; };
+		BB0EB4932BA615C8008279C4 /* ExpenseBuddiesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */; };
+		BB0EB4952BA61DAB008279C4 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4942BA61DAB008279C4 /* Balance.swift */; };
+		BB0EB4972BA6268C008279C4 /* ParticipantAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */; };
+		BB0EB4992BA6277A008279C4 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4982BA6277A008279C4 /* Participant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		BB0EB47B2BA5AE67008279C4 /* TranquilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0EB47F2BA5AE67008279C4 /* TranquilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilityUITests.swift; sourceTree = "<group>"; };
 		BB0EB4812BA5AE67008279C4 /* TranquilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseBuddy.swift; sourceTree = "<group>"; };
+		BB0EB4902BA610CE008279C4 /* Buddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy.swift; sourceTree = "<group>"; };
+		BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseBuddiesGrid.swift; sourceTree = "<group>"; };
+		BB0EB4942BA61DAB008279C4 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantAvatar.swift; sourceTree = "<group>"; };
+		BB0EB4982BA6277A008279C4 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,14 @@
 			children = (
 				BB0EB4642BA5AE66008279C4 /* TranquilityApp.swift */,
 				BB0EB4662BA5AE66008279C4 /* ContentView.swift */,
+				BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */,
+				BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */,
+				BB0EB4902BA610CE008279C4 /* Buddy.swift */,
 				BB0EB4682BA5AE67008279C4 /* Assets.xcassets */,
 				BB0EB46A2BA5AE67008279C4 /* Preview Content */,
+				BB0EB4942BA61DAB008279C4 /* Balance.swift */,
+				BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */,
+				BB0EB4982BA6277A008279C4 /* Participant.swift */,
 			);
 			path = Tranquility;
 			sourceTree = "<group>";
@@ -259,6 +277,12 @@
 			files = (
 				BB0EB4672BA5AE66008279C4 /* ContentView.swift in Sources */,
 				BB0EB4652BA5AE66008279C4 /* TranquilityApp.swift in Sources */,
+				BB0EB4952BA61DAB008279C4 /* Balance.swift in Sources */,
+				BB0EB4992BA6277A008279C4 /* Participant.swift in Sources */,
+				BB0EB4972BA6268C008279C4 /* ParticipantAvatar.swift in Sources */,
+				BB0EB4912BA610CE008279C4 /* Buddy.swift in Sources */,
+				BB0EB48F2BA61082008279C4 /* ExpenseBuddy.swift in Sources */,
+				BB0EB4932BA615C8008279C4 /* ExpenseBuddiesGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
