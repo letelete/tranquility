@@ -1,10 +1,3 @@
-//
-//  ParticipantsAvatars.swift
-//  Tranquility
-//
-//  Created by Bruno Kawka on 16/03/2024.
-//
-
 import SwiftUI
 
 struct ParticipantAvatar: View {
@@ -17,18 +10,26 @@ struct ParticipantAvatar: View {
                     AsyncImage(url: URL(string: participant.pictureUrl!)) { phase in
                         switch phase {
                         case .empty:
-                            ProgressView().frame(idealWidth: 16)
+                            ProgressView().frame(width: 24)
                         case .success(let image):
                             image.resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(maxWidth: 16)
+                                .frame(width: 24)
                         case .failure:
                             Image(systemName: "photo")
                         @unknown default:
                             EmptyView()
                         }}
                 } else {
-                    Image(systemName: "photo").resizable().aspectRatio(contentMode: .fit).frame(maxWidth: 16)
+                    HStack {
+                        let name = String(participant.name[participant.name.startIndex]) + String(participant.name.split(separator: " ")[1][participant.name.split(separator: " ")[1].startIndex])
+                        
+                        ZStack {
+                            Circle().frame(width: 24, height:24)
+                                .foregroundStyle(Color(.systemGray5))
+                            Text(name).font(.caption2).fontWeight(.bold)
+                        }
+                    }
                 }
             }.clipShape(Circle())
         }
@@ -36,5 +37,5 @@ struct ParticipantAvatar: View {
 }
 
 #Preview {
-    ParticipantAvatar(participant: Participant.sampleData[0])
+    ParticipantAvatar(participant: Participant.sampleData[1])
 }

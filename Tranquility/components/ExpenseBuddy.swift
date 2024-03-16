@@ -1,10 +1,3 @@
-//
-//  ExpenseBuddy.swift
-//  Tranquility
-//
-//  Created by Bruno Kawka on 16/03/2024.
-//
-
 import SwiftUI
 
 struct ExpenseBuddy: View {
@@ -26,7 +19,7 @@ struct ExpenseBuddy: View {
                     if buddy.balance != 0 {
                         Text(balance.asFormatted)
                             .font(.title2)
-                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            .fontWeight(.bold)
                             .foregroundStyle(balance.color)
                             .lineLimit(1)
                     } else {

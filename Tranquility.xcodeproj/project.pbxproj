@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB0EB4652BA5AE66008279C4 /* TranquilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4642BA5AE66008279C4 /* TranquilityApp.swift */; };
-		BB0EB4672BA5AE66008279C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4662BA5AE66008279C4 /* ContentView.swift */; };
+		BB0EB4672BA5AE66008279C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4662BA5AE66008279C4 /* HomeScreen.swift */; };
 		BB0EB4692BA5AE67008279C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0EB4682BA5AE67008279C4 /* Assets.xcassets */; };
 		BB0EB46C2BA5AE67008279C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0EB46B2BA5AE67008279C4 /* Preview Assets.xcassets */; };
 		BB0EB4762BA5AE67008279C4 /* TranquilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4752BA5AE67008279C4 /* TranquilityTests.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		BB0EB4612BA5AE66008279C4 /* Tranquility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranquility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0EB4642BA5AE66008279C4 /* TranquilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilityApp.swift; sourceTree = "<group>"; };
-		BB0EB4662BA5AE66008279C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0EB4662BA5AE66008279C4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		BB0EB4682BA5AE67008279C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0EB46B2BA5AE67008279C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB0EB4712BA5AE67008279C4 /* TranquilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,16 +106,12 @@
 		BB0EB4632BA5AE66008279C4 /* Tranquility */ = {
 			isa = PBXGroup;
 			children = (
+				BB6CB2FE2BA658FE007E01A0 /* screens */,
+				BB6CB2FD2BA658CE007E01A0 /* models */,
+				BB6CB2FC2BA658AE007E01A0 /* components */,
 				BB0EB4642BA5AE66008279C4 /* TranquilityApp.swift */,
-				BB0EB4662BA5AE66008279C4 /* ContentView.swift */,
-				BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */,
-				BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */,
-				BB0EB4902BA610CE008279C4 /* Buddy.swift */,
 				BB0EB4682BA5AE67008279C4 /* Assets.xcassets */,
 				BB0EB46A2BA5AE67008279C4 /* Preview Content */,
-				BB0EB4942BA61DAB008279C4 /* Balance.swift */,
-				BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */,
-				BB0EB4982BA6277A008279C4 /* Participant.swift */,
 			);
 			path = Tranquility;
 			sourceTree = "<group>";
@@ -143,6 +139,34 @@
 				BB0EB4812BA5AE67008279C4 /* TranquilityUITestsLaunchTests.swift */,
 			);
 			path = TranquilityUITests;
+			sourceTree = "<group>";
+		};
+		BB6CB2FC2BA658AE007E01A0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */,
+				BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */,
+				BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BB6CB2FD2BA658CE007E01A0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EB4942BA61DAB008279C4 /* Balance.swift */,
+				BB0EB4902BA610CE008279C4 /* Buddy.swift */,
+				BB0EB4982BA6277A008279C4 /* Participant.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		BB6CB2FE2BA658FE007E01A0 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EB4662BA5AE66008279C4 /* HomeScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0EB4672BA5AE66008279C4 /* ContentView.swift in Sources */,
+				BB0EB4672BA5AE66008279C4 /* HomeScreen.swift in Sources */,
 				BB0EB4652BA5AE66008279C4 /* TranquilityApp.swift in Sources */,
 				BB0EB4952BA61DAB008279C4 /* Balance.swift in Sources */,
 				BB0EB4992BA6277A008279C4 /* Participant.swift in Sources */,

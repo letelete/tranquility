@@ -1,10 +1,3 @@
-//
-//  TranquilityUITestsLaunchTests.swift
-//  TranquilityUITests
-//
-//  Created by Bruno Kawka on 16/03/2024.
-//
-
 import XCTest
 
 final class TranquilityUITestsLaunchTests: XCTestCase {

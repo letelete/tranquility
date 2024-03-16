@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  Tranquility
-//
-//  Created by Bruno Kawka on 16/03/2024.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct HomeScreen: View {
     var userBalance: Int
     var balance: Balance
     var buddies: [Buddy]
@@ -67,6 +60,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    HomeScreen()
     
 }
