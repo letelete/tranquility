@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct HomeScreen: View {
+struct HomeView: View {
     var userBalance: Int
     var balance: Balance
     var buddies: [Buddy]
@@ -40,7 +40,7 @@ struct HomeScreen: View {
                     }
                 }
                 else {
-                    Text("Bring tranquility to your finances by adding your first expense buddy!").foregroundStyle(.secondary).padding().multilineTextAlignment(.center)
+                    Text("Bring tranquility into your finances by adding your first expense buddy!").foregroundStyle(.secondary).padding().multilineTextAlignment(.center)
                         .frame(maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
                 }
             }
@@ -60,6 +60,5 @@ struct HomeScreen: View {
 }
 
 #Preview {
-    HomeScreen()
-    
+    HomeView()
 }

@@ -20,6 +20,20 @@
 		BB0EB4952BA61DAB008279C4 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4942BA61DAB008279C4 /* Balance.swift */; };
 		BB0EB4972BA6268C008279C4 /* ParticipantAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */; };
 		BB0EB4992BA6277A008279C4 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EB4982BA6277A008279C4 /* Participant.swift */; };
+		BB6AA35F2BA70025007BDEED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB6AA35E2BA70025007BDEED /* GoogleService-Info.plist */; };
+		BB6AA3622BA7035D007BDEED /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA3612BA7035D007BDEED /* FirebaseAnalytics */; };
+		BB6AA3642BA7035D007BDEED /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA3632BA7035D007BDEED /* FirebaseAnalyticsSwift */; };
+		BB6AA3662BA7035D007BDEED /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA3652BA7035D007BDEED /* FirebaseAppCheck */; };
+		BB6AA3682BA7035D007BDEED /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA3672BA7035D007BDEED /* FirebaseAuth */; };
+		BB6AA36A2BA7035D007BDEED /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA3692BA7035D007BDEED /* FirebaseDatabase */; };
+		BB6AA36C2BA7035D007BDEED /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB6AA36B2BA7035D007BDEED /* FirebaseDatabaseSwift */; };
+		BB6AA36E2BA70634007BDEED /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA36D2BA70634007BDEED /* AuthenticationView.swift */; };
+		BB6AA3702BA70798007BDEED /* SignInWithAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA36F2BA70798007BDEED /* SignInWithAppleButtonView.swift */; };
+		BB6AA3742BA70B5E007BDEED /* AuthenticationManagerAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA3732BA70B5E007BDEED /* AuthenticationManagerAuthManager.swift */; };
+		BB6AA3762BA72575007BDEED /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA3752BA72575007BDEED /* RootView.swift */; };
+		BB6AA3792BA75105007BDEED /* UIViewController+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA3782BA75105007BDEED /* UIViewController+EXT.swift */; };
+		BB6AA37B2BA7515F007BDEED /* UIApplication+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA37A2BA7515F007BDEED /* UIApplication+EXT.swift */; };
+		BB6AA37E2BA751D6007BDEED /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AA37D2BA751D6007BDEED /* Authentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +70,14 @@
 		BB0EB4942BA61DAB008279C4 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 		BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantAvatar.swift; sourceTree = "<group>"; };
 		BB0EB4982BA6277A008279C4 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		BB6AA35E2BA70025007BDEED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB6AA36D2BA70634007BDEED /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		BB6AA36F2BA70798007BDEED /* SignInWithAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonView.swift; sourceTree = "<group>"; };
+		BB6AA3732BA70B5E007BDEED /* AuthenticationManagerAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerAuthManager.swift; sourceTree = "<group>"; };
+		BB6AA3752BA72575007BDEED /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BB6AA3782BA75105007BDEED /* UIViewController+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+EXT.swift"; sourceTree = "<group>"; };
+		BB6AA37A2BA7515F007BDEED /* UIApplication+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+EXT.swift"; sourceTree = "<group>"; };
+		BB6AA37D2BA751D6007BDEED /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6AA36C2BA7035D007BDEED /* FirebaseDatabaseSwift in Frameworks */,
+				BB6AA36A2BA7035D007BDEED /* FirebaseDatabase in Frameworks */,
+				BB6AA3642BA7035D007BDEED /* FirebaseAnalyticsSwift in Frameworks */,
+				BB6AA3662BA7035D007BDEED /* FirebaseAppCheck in Frameworks */,
+				BB6AA3622BA7035D007BDEED /* FirebaseAnalytics in Frameworks */,
+				BB6AA3682BA7035D007BDEED /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +134,12 @@
 		BB0EB4632BA5AE66008279C4 /* Tranquility */ = {
 			isa = PBXGroup;
 			children = (
-				BB6CB2FE2BA658FE007E01A0 /* screens */,
-				BB6CB2FD2BA658CE007E01A0 /* models */,
-				BB6CB2FC2BA658AE007E01A0 /* components */,
+				BB6AA37C2BA751CA007BDEED /* Helpers */,
+				BB6AA3772BA750CA007BDEED /* Extensions */,
+				BB6AA3722BA70B32007BDEED /* Authentication */,
+				BB6CB2FE2BA658FE007E01A0 /* Home */,
+				BB6CB2FD2BA658CE007E01A0 /* Models */,
+				BB6CB2FC2BA658AE007E01A0 /* Components */,
 				BB0EB4642BA5AE66008279C4 /* TranquilityApp.swift */,
 				BB0EB4682BA5AE67008279C4 /* Assets.xcassets */,
 				BB0EB46A2BA5AE67008279C4 /* Preview Content */,
@@ -137,36 +168,65 @@
 			children = (
 				BB0EB47F2BA5AE67008279C4 /* TranquilityUITests.swift */,
 				BB0EB4812BA5AE67008279C4 /* TranquilityUITestsLaunchTests.swift */,
+				BB6AA35E2BA70025007BDEED /* GoogleService-Info.plist */,
 			);
 			path = TranquilityUITests;
 			sourceTree = "<group>";
 		};
-		BB6CB2FC2BA658AE007E01A0 /* components */ = {
+		BB6AA3722BA70B32007BDEED /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BB6AA36D2BA70634007BDEED /* AuthenticationView.swift */,
+				BB6AA36F2BA70798007BDEED /* SignInWithAppleButtonView.swift */,
+				BB6AA3732BA70B5E007BDEED /* AuthenticationManagerAuthManager.swift */,
+				BB6AA3752BA72575007BDEED /* RootView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BB6AA3772BA750CA007BDEED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB6AA3782BA75105007BDEED /* UIViewController+EXT.swift */,
+				BB6AA37A2BA7515F007BDEED /* UIApplication+EXT.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB6AA37C2BA751CA007BDEED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB6AA37D2BA751D6007BDEED /* Authentication.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB6CB2FC2BA658AE007E01A0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				BB0EB4962BA6268C008279C4 /* ParticipantAvatar.swift */,
 				BB0EB48E2BA61082008279C4 /* ExpenseBuddy.swift */,
 				BB0EB4922BA615C8008279C4 /* ExpenseBuddiesGrid.swift */,
 			);
-			path = components;
+			path = Components;
 			sourceTree = "<group>";
 		};
-		BB6CB2FD2BA658CE007E01A0 /* models */ = {
+		BB6CB2FD2BA658CE007E01A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				BB0EB4942BA61DAB008279C4 /* Balance.swift */,
 				BB0EB4902BA610CE008279C4 /* Buddy.swift */,
 				BB0EB4982BA6277A008279C4 /* Participant.swift */,
 			);
-			path = models;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		BB6CB2FE2BA658FE007E01A0 /* screens */ = {
+		BB6CB2FE2BA658FE007E01A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				BB0EB4662BA5AE66008279C4 /* HomeScreen.swift */,
 			);
-			path = screens;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +245,14 @@
 			dependencies = (
 			);
 			name = Tranquility;
+			packageProductDependencies = (
+				BB6AA3612BA7035D007BDEED /* FirebaseAnalytics */,
+				BB6AA3632BA7035D007BDEED /* FirebaseAnalyticsSwift */,
+				BB6AA3652BA7035D007BDEED /* FirebaseAppCheck */,
+				BB6AA3672BA7035D007BDEED /* FirebaseAuth */,
+				BB6AA3692BA7035D007BDEED /* FirebaseDatabase */,
+				BB6AA36B2BA7035D007BDEED /* FirebaseDatabaseSwift */,
+			);
 			productName = Tranquility;
 			productReference = BB0EB4612BA5AE66008279C4 /* Tranquility.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +325,9 @@
 				Base,
 			);
 			mainGroup = BB0EB4582BA5AE66008279C4;
+			packageReferences = (
+				BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BB0EB4622BA5AE66008279C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -273,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6AA35F2BA70025007BDEED /* GoogleService-Info.plist in Resources */,
 				BB0EB46C2BA5AE67008279C4 /* Preview Assets.xcassets in Resources */,
 				BB0EB4692BA5AE67008279C4 /* Assets.xcassets in Resources */,
 			);
@@ -301,11 +373,18 @@
 			files = (
 				BB0EB4672BA5AE66008279C4 /* HomeScreen.swift in Sources */,
 				BB0EB4652BA5AE66008279C4 /* TranquilityApp.swift in Sources */,
+				BB6AA36E2BA70634007BDEED /* AuthenticationView.swift in Sources */,
 				BB0EB4952BA61DAB008279C4 /* Balance.swift in Sources */,
 				BB0EB4992BA6277A008279C4 /* Participant.swift in Sources */,
 				BB0EB4972BA6268C008279C4 /* ParticipantAvatar.swift in Sources */,
 				BB0EB4912BA610CE008279C4 /* Buddy.swift in Sources */,
+				BB6AA3792BA75105007BDEED /* UIViewController+EXT.swift in Sources */,
+				BB6AA37E2BA751D6007BDEED /* Authentication.swift in Sources */,
+				BB6AA3702BA70798007BDEED /* SignInWithAppleButtonView.swift in Sources */,
+				BB6AA3762BA72575007BDEED /* RootView.swift in Sources */,
+				BB6AA3742BA70B5E007BDEED /* AuthenticationManagerAuthManager.swift in Sources */,
 				BB0EB48F2BA61082008279C4 /* ExpenseBuddy.swift in Sources */,
+				BB6AA37B2BA7515F007BDEED /* UIApplication+EXT.swift in Sources */,
 				BB0EB4932BA615C8008279C4 /* ExpenseBuddiesGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,18 +552,24 @@
 				DEVELOPMENT_TEAM = 8YVVMKPFY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tranquility;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.kawka.Tranquility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.kawka.tranquilityapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,18 +587,24 @@
 				DEVELOPMENT_TEAM = 8YVVMKPFY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tranquility;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.kawka.Tranquility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.kawka.tranquilityapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -636,6 +727,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB6AA3612BA7035D007BDEED /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BB6AA3632BA7035D007BDEED /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BB6AA3652BA7035D007BDEED /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		BB6AA3672BA7035D007BDEED /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BB6AA3692BA7035D007BDEED /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BB6AA36B2BA7035D007BDEED /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6AA3602BA7035D007BDEED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB0EB4592BA5AE66008279C4 /* Project object */;
 }
